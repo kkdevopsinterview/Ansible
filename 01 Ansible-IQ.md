@@ -13,9 +13,9 @@ remotely, and ensures the system matches the defined configuration.
 
 The workflow generally follows this sequence:
 
-1 **Inventory** defines target hosts\
-2 **Playbook** describes desired configuration\
-3️ **Modules** perform actions\
+1 **Inventory** defines target hosts
+2 **Playbook** describes desired configuration
+3️ **Modules** perform actions
 4️ Results returned to control node
 
 Because it focuses on simplicity and readability, **Ansible** is widely
@@ -131,8 +131,8 @@ infrastructure targets.
 
 Inventories may include:
 
--   Hostnames/IP addresses\
--   Group definitions\
+-   Hostnames/IP addresses
+-   Group definitions
 -   Variables
 
 They can be **static** or **dynamic**.
@@ -246,8 +246,8 @@ symbols, making playbooks readable.
 
 YAML supports:
 
--   Lists\
--   Dictionaries\
+-   Lists
+-   Dictionaries
 -   Variables
 
 Its simplicity reduces learning curve and errors.
